@@ -1,0 +1,126 @@
+.app-main__outer{
+    background-color: white;
+  }
+  
+  /*------------------SIEBAR-------------------------*/
+  .scrollbar-sidebar{
+    background:linear-gradient(to bottom, rgba(223, 216, 212, 0.116) 0%,rgba(247, 244, 244, 0.384) 100%), url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    border: 1px solid black;
+    height: 100%;
+  }
+  
+  
+  .user-pic img{
+    width: 151px;
+    height: 148px;
+    border-radius: 50%;
+  }
+  
+  .user-info{
+    font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  color: white;
+  }
+  
+  .sidebar-list{
+    margin-left: 0;
+    margin-top: 3rem;
+    padding-left: 0;
+  }
+  @media screen and (min-height:712px){
+    .sidebar-list{
+      margin-top: 30px;
+    }
+  }
+  .sidebar-list .list-group-item{
+    background:linear-gradient(to bottom, rgba(223, 216, 212, 0) 0%,rgba(247, 244, 244, 0.062) 100%);
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  }
+  /*----------------WE ARE HUMAN LIBRARY-------------*/
+  
+  .human-library-head{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 64px;
+    text-transform: capitalize;
+    text-align: left;
+    width: 100%;
+    color: #000000;
+  }
+  @media screen and (max-width:524px){
+    .human-library-head{
+      font-size: 2rem;
+    }
+  }
+  
+  /*-----------------------COMMUNITY CARDS-----------------*/
+  
+  .community_card{
+    width: 245px;
+    height: 248px;
+    margin: 0 auto;
+  }
+  .community_card img{
+    border-radius: 50%;
+    width: 99px;
+    height: 97px;
+  }
+  
+  .community_card .btn{
+    width: 97px;
+    height: 30px;
+    border-radius: 0;
+  }
+  
+  .community_card .list-group-item{
+    font-size:15px;
+  }
+  
+  .no_1 .list-group-item, .no_3 .list-group-item, .no_5 .list-group-item{
+    color: #000000;
+  }
+  
+  .no_2 .list-group-item, .no_4 .list-group-item, .no_6 .list-group-item{
+    color: white;
+  }
+  
+  .no_1 .btn-light, .no_3 .btn-light, .no_5 .btn-light{
+    background-color: #301503;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .no_2 .btn-light, .no_4 .btn-light, .no_6 .btn-light{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .no_1 .list-group-item{
+    background-color: rgba(254, 237, 237, 1);
+  }
+  
+  .no_2 .list-group-item{
+    background-color: rgba(26, 35, 57, 1);
+  }
+  .no_3 .list-group-item{
+    background-color:rgba(183, 249, 190, 1);
+  }
+  .no_4 .list-group-item{
+    background-color: rgba(38, 26, 57, 1);
+  }
+  .no_5 .list-group-item{
+    background-color: rgba(249, 246, 185, 1);
+  }
+  .no_6 .list-group-item{
+    background-color:rgba(49, 0, 0, 1);
+  }
